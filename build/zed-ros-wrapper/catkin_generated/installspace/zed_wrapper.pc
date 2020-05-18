@@ -1,0 +1,8 @@
+prefix=/home/cair/swahana_ws/install
+
+Name: zed_wrapper
+Description: Description of zed_wrapper
+Version: 1.0.0
+Cflags: -I/home/cair/swahana_ws/install/include
+Libs: -L/home/cair/swahana_ws/install/lib 
+Requires: roscpp rosconsole sensor_msgs opencv image_transport dynamic_reconfigure tf2_ros pcl_conversions

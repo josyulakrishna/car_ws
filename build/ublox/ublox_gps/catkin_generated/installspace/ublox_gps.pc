@@ -1,0 +1,8 @@
+prefix=/home/cair/swahana_ws/install
+
+Name: ublox_gps
+Description: Description of ublox_gps
+Version: 1.1.2
+Cflags: -I/home/cair/swahana_ws/install/include
+Libs: -L/home/cair/swahana_ws/install/lib -lublox_gps
+Requires: roscpp ublox_msgs ublox_serialization

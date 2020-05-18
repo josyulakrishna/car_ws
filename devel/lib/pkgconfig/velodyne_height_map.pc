@@ -1,0 +1,8 @@
+prefix=/home/cair/swahana_ws/devel
+
+Name: velodyne_height_map
+Description: Description of velodyne_height_map
+Version: 0.4.1
+Cflags: -I/home/cair/swahana_ws/devel/include
+Libs: -L/home/cair/swahana_ws/devel/lib 
+Requires: nodelet std_msgs visualization_msgs roscpp pcl_ros pcl_conversions sensor_msgs tf

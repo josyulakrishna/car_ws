@@ -1,0 +1,8 @@
+prefix=/home/cair/swahana_ws/install
+
+Name: e2o
+Description: Description of e2o
+Version: 0.0.0
+Cflags: -I/home/cair/swahana_ws/install/include
+Libs: -L/home/cair/swahana_ws/install/lib 
+Requires: roscpp rospy std_msgs message_runtime

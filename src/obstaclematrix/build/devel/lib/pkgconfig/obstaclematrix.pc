@@ -1,0 +1,8 @@
+prefix=/home/cair/swahana_ws/src/obstaclematrix/build/devel
+
+Name: obstaclematrix
+Description: Description of obstaclematrix
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/cair/swahana_ws/src/obstaclematrix/build/devel/lib 
+Requires: 

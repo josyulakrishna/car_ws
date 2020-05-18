@@ -1,0 +1,20 @@
+<!-- -*- mode: XML -*- -->
+<!-- run velodyne_height_map/HeightMapNodelet in a nodelet manager
+
+     $Id$
+  -->
+
+<launch>
+
+  <arg name="pcap" default="" />
+  <arg name="calibration" default="$(find velodyne_launch)/params/VLP-16.yaml"/>
+
+  <include file="$(find velodyne_driver)/launch/nodelet_manager.launch">
+    <arg name="model" value="16"/>
+    <arg name="rpm" default="600.0"/>
+    <arg name="pcap" value="$(arg pcap)"/>
+  </include>
+
+  <node pkg="nodelet" type="nodelet" name="heightmap_nodelet"
+        args="load velodyne_height_map/HeightMapNodelet velodyne_nodelet_manager"/>
+</launch>
